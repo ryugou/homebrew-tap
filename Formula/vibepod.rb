@@ -7,20 +7,20 @@ class Vibepod < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/ryugou/vibepod/releases/download/v1.0.0/vibepod-1.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "11255b0d4d0d5a98f37acbf867eb4f07a77c574d5790c2ee78931042a0559c2f"
+      sha256 "014f7b82d787e0850a499d9c58f9643e1f226fdf0cadb507fc2f889f2e5a95b1"
     else
       url "https://github.com/ryugou/vibepod/releases/download/v1.0.0/vibepod-1.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "1c9302f6025374163d27d486036953deaa4804c73b614650cc32d773c2fd7785"
+      sha256 "ae7a14e38c6292108f80c645ffbd06b94e41b60ea6b76e20fd73314ad230e953"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/ryugou/vibepod/releases/download/v1.0.0/vibepod-1.0.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c1d85d38595fc6fe3d0df85a6d85eb501364e73f42e010102be86efaf5f0f303"
+      sha256 "9ac5f4ffae84c1739cdec14cff1a244fc88e4ea36a1f0e50f9b227739e97711a"
     else
       url "https://github.com/ryugou/vibepod/releases/download/v1.0.0/vibepod-1.0.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "447dff3038918f20a0da758d1d46ea325f6f0eb0fcc50eed3a0e4c879fcb7d3e"
+      sha256 "31a662310726ffdcfbab1906a2cedce1808aeda1ba54cf62ce095bc9f1bd5952"
     end
   end
 
