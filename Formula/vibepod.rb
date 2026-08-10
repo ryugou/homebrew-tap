@@ -1,26 +1,26 @@
 class Vibepod < Formula
   desc "Safely run AI coding agents in Docker containers"
   homepage "https://github.com/ryugou/vibepod"
-  version "1.8.1"
+  version "1.8.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ryugou/vibepod/releases/download/v1.8.1/vibepod-1.8.1-aarch64-apple-darwin.tar.gz"
-      sha256 "73a9f512eedc5c064465a2b911b9d616b12424cc50ccda36c2bf4c249353369b"
+      url "https://github.com/ryugou/vibepod/releases/download/v1.8.2/vibepod-1.8.2-aarch64-apple-darwin.tar.gz"
+      sha256 "b288b7d3669f8be46cf75ce2b688271fb1a7711c0988e22fd438cb016dc4b2e2"
     else
-      url "https://github.com/ryugou/vibepod/releases/download/v1.8.1/vibepod-1.8.1-x86_64-apple-darwin.tar.gz"
-      sha256 "e7a136134b9fe794515071af0c188010ba3de7e88d9fb13f945ca0ddd301007a"
+      url "https://github.com/ryugou/vibepod/releases/download/v1.8.2/vibepod-1.8.2-x86_64-apple-darwin.tar.gz"
+      sha256 "f9273ece0d157f6687588bfaa8c37d39576fbac3b0eef7acf98338451997fb79"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/ryugou/vibepod/releases/download/v1.8.1/vibepod-1.8.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "39393634a5952b16f1822fdf6a30fa2e57c40ee241e56d3062254ea22458dad5"
+      url "https://github.com/ryugou/vibepod/releases/download/v1.8.2/vibepod-1.8.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "16de59e9c6a00eb02ccf783b7431272213bc0604373ba944f16226772cdb57fc"
     else
-      url "https://github.com/ryugou/vibepod/releases/download/v1.8.1/vibepod-1.8.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6e858ca38767d65bd97027b9001e2f3e19f4e4b0f406a80fb088880ec0ef3ec4"
+      url "https://github.com/ryugou/vibepod/releases/download/v1.8.2/vibepod-1.8.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "693bef6ec5027e34a91936efc9a33f146415ee9165536ef75f617d9809e6796d"
     end
   end
 
